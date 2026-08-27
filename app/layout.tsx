@@ -15,16 +15,16 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/app_logo2.jpg',
+        url: '/logo.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/app_logo2.jpg',
+        url: '/logo.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.png',
-        type: 'baylat-favicon',
+        url: '/baylat-favicon.png',
+        type: 'image/png',
       },
     ],
     apple: '/app_logo2.jpg',
