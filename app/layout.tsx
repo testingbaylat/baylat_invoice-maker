@@ -9,7 +9,7 @@ const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-docume
 const dancingScript = Dancing_Script({ subsets: ['latin'], variable: '--font-document-script' })
 
 export const metadata: Metadata = {
-  title: 'Baylat Document Generator',
+  title: 'Pdf',
   description: 'Create polished, print-ready Baylat Properties documents.',
   generator: 'dfran6/Baylat-Document-Generator',
   icons: {
