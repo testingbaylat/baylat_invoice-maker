@@ -3,6 +3,7 @@ export type DocumentItem = {
   description: string
   quantity: number
   unit: string
+  amount:number
   price: number
 }
 
@@ -35,12 +36,12 @@ export const defaultDocument: DocumentData = {
   company: 'EZION-GEBER ENERGY-LIMITED.',
   attention: 'MRS. DOYIN-ESHO',
   memo: 'QUOTATION FOR SHARP SAND SUPPLIED WITHIN MONASTERY ROAD TO EZIEN-ENERGY.LTD.',
-  items: [{ id: 'item-1', description: 'Sand', quantity: 40, unit: 'Tonnes', price: 247000 }],
+  items: [{ id: 'item-1', description: 'Sand', quantity: 45, unit: 'Tonnes', amount:30, price: 247000 }],
   accountName: 'BAYLAT PROPERTIES LTD',
   accountNumber: '101-273-66-28',
   bankName: 'ZENITH BANK',
 }
 
 export function createEmptyItem(): DocumentItem {
-  return { id: `item-${Date.now()}`, description: '', quantity: 0, unit: 'Tonnes', price: 0 }
+  return { id: `item-${Date.now()}`, description: '', quantity: 0, unit: 'Tonnes', amount:0, price: 0 }
 }
